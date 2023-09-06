@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+
+</head>
+<body class="body">
+    <header class="header">
+        <h1>Contact Us</h1>
+    </header>
+    
+    <nav class="sidebar">
+        <ul>
+            <a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            <a href="../about/index.html">About <i class="fa fa-pencil" aria-hidden="true"></i></a>
+        
+            <a href="../services/index.html"><i class="fa fa-cart-plus" aria-hidden="true"></i> Services</a> 
+            <a href="./index.html">Contact <i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Contact Information</h2>
+        <p>If you have any questions or need assistance, please feel free to contact us using the information below:</p>
+        
+        <ul>
+            <li><strong>Email:</strong> @meetmatch.com</li>
+            <li><strong>Phone:</strong> +1 234 556</li>
+            <li><strong>Address:</strong> 123 Match Street, MeetVille, New Meetmatch</li>
+        </ul>
+
+        <h2>Contact Form</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        &copy; 2023 Meet Match
+    </footer>
+</body>
+</html>
